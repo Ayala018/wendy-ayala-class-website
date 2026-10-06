@@ -31,9 +31,29 @@ button {
 blockquote {
     font-style: italic;
     font-size: 18px;
+}
 
 a {
     color: #d62828;
     font-weight: bold;
     text-decoration: none;
+}
+#page-title {
+    color: #00aaff;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px silver;
+}
+    .section-title {
+    background-color: #bdefff;
+    color: #0066cc;
+    border: 2px solid silver;
+    padding: 8px;
+    text-shadow: 1px 1px 2px white;
+    } 
+    div {
+    border: 2px solid #00aaff;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #eafaff;
+    border-radius: 15px;
 }
