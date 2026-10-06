@@ -1,5 +1,39 @@
-h1{ color:aqua;}
-h2{ color:blue;}
-p{ color:darkgreen;}
-ul{ color:darkred;}
+h1 {
+    color: #d62828;
+    font-size: 48px;}
+    h2{ color: #1d4ed8;}
+p { color: #222222; }
+ul { list-style-position: inside;
+    color: #222222;
+    padding: 0; }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e8;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    border: 5px solid #f4b400;
+    border-radius: 20px;
+    margin-top: 10px;
+margin-bottom: 5px;
+}
+button {
+    background-color: #d62828;
+    color: white;
+    border: 3px solid #f4b400;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+blockquote {
+    font-style: italic;
+    font-size: 18px;
+
+a {
+    color: #d62828;
+    font-weight: bold;
+    text-decoration: none;
+}
