@@ -57,3 +57,31 @@ a {
     background-color: #eafaff;
     border-radius: 15px;
 }
+.interaction-page {
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #dff6ff;
+}
+
+.interaction-page h1 {
+    color: #0066cc;
+    text-shadow: 2px 2px 4px silver;
+}
+
+#mood-box {
+    width: 300px;
+    margin: 40px auto;
+    padding: 60px 20px;
+    background-color: #bdefff;
+    border: 3px solid silver;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 15px silver;
+}
+
+#mood-box:hover {
+    transform: scale(1.05);
+}
